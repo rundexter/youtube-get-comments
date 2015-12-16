@@ -62,7 +62,6 @@ module.exports = {
             return;
         // set credential
         google.options({ auth: auth });
-        //console.log(util.pickStringInputs(step, pickInputs));
         service.comments.list(util.pickStringInputs(step, pickInputs), function (error, data) {
 
             if (error)

@@ -60,6 +60,12 @@
             "title":"Items"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/youtube.force-ssl"
+        ]
+    }],
     "icon": "youtube-play",
     "title": "YouTube Get Comments" /* Required.A display name for the module */
 }
